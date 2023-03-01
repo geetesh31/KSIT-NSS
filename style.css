@@ -386,3 +386,12 @@ body {
     display: flex;
     justify-content: center;
   }
+
+  .carousel-item img{
+    height:768px;
+
+  }
+
+  .material-icons{
+    color:white;
+  }
