@@ -456,7 +456,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
 }
 .ourteam .box {
   position: relative;
@@ -526,4 +526,11 @@ footer {
   .container .box:hover .imgBox {
     transform: translate(0, -3.5rem);
   }
+}
+
+h1{
+  text-align: center;
+  font-size: 3em;
+  font-family: monospace;
+
 }
