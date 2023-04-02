@@ -488,15 +488,12 @@ footer {
 }
 
 .content {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 3vh;
   display: flex;
   justify-content: center;
-  background-color: #fff;
   z-index: 1;
   align-items: flex-end;
   text-align: center;
@@ -533,4 +530,26 @@ h1{
   font-size: 3em;
   font-family: monospace;
 
+}
+
+
+
+
+
+nav{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  color:white;
+}
+
+.carousel-caption p {
+  color:white;
+}
+
+.carousel-caption h5 {
+  color:white;
+}
+
+.carousel-control-prev-icon{
+  color:white;
 }

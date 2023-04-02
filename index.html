@@ -2,9 +2,14 @@
 <html>
   <head>
     <title>NSS KJSIT</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
     <link rel="icon" type="image/x-icon" href="./favicon_io/favicon-32x32.png">
+
   </head>
   <header>
     <div class="logo">
@@ -69,19 +74,54 @@
     </nav>    
   </header>
   <body>
-    <section class="snap-section">
-      <div class="slider">
-        <img class="slide" src="Assets/photoonbeach.png" alt="Image 1">
+  <nav>
+    <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-    </section>
-    
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./Assets/1.jpg" class="d-block w-100" alt="..."  width="1280px" height="680px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./Assets/2.jpg" class="d-block w-100" alt="..." width="1280px" height="680px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/3.jpg" class="d-block w-100" alt="..."  width="1280px" height="680px">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </nav>
+  
     <section class="about-us">
       <div class="background-image">
         <div class="overlay"></div>
       </div>
       <div class="content">
-      <h3>About Us</h3>
-      <p>Lorem ipsum dolor sit amet consectetur. Molestie et leo quis leo eget nulla facilisi gravida ac. Dictum vestibulum et eros tortor. Amet volutpat sit ullamcorper accumsan habitant. Amet in malesuada porttitor vel lorem non sed quam. Ultrices amet auctor nisi auctor ipsum. Lectus nunc vel sit volutpat. Varius scelerisque neque at at nibh vehicula nulla. Risus aliquam curabitur risus lobortis euismod leo elit diam. In magna ut augue metus arcu purus pellentesque. Mattis id luctus vitae nunc at volutpat amet ut sagittis. Elit erat morbi elementum curabitur ornare integer. Nec iaculis venenatis egestas proin platea. Tristique tempor facilisis ac commodo. Lorem ipsum dolor sit amet consectetur. Molestie et leo quis leo eget nulla facilisi gravida ac. Dictum vestibulum et eros tortor. Amet volutpat sit ullamcorper accumsan habitant. Amet in malesuada porttitor vel lorem non sed quam. Ultrices amet auctor nisi auctor ipsum. Lectus nunc vel sit volutpat. </p>
+        <h3>About Us</h3>
+        <p></p>
       </div>
     </section>
 
@@ -315,6 +355,7 @@
 
     
     <script src="./js/flip.js"> </script>
+
   </body> 
 
   <footer>
